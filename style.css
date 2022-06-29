@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: gainsboro;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    letter-spacing: .45rem;
+}
+
+.post-images {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2, p {
+    padding: 1.2rem;
+    background-color: ghostwhite ;
+    letter-spacing: .20rem;
+}
+
+em {
+    font-weight: 70;
+    position: relative;
+    float: right;
+    color: grey;
+}
+
+img {
+    width: 100%;
+}
+
+img:hover{
+	opacity: .6;
+	transition: opacity .5s;
+}
